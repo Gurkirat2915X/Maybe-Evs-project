@@ -6,6 +6,11 @@ logo_link = "https://img.freepik.com/free-vector/sea-animal-cartoon-sticker-with
 img_links = ["ABS","123"]
 causes = ["1","2","3","4"]
 link_causes = []
+solutions = ["2","3","4"]
+link_solutions = []
+
+for i in solutions:
+     link_solutions.append("#"+str(i))
 
 for i in causes:
      link_causes.append("#"+str(i))
@@ -17,7 +22,21 @@ def index(request):
      "img_links":img_links})
 def Causes(request):
      return render(request,"evs/Causes.html",
-     {"name": nav_names[1],"nav_names":nav_names,"logo":logo_link
-     ,"causes":causes,"link_causes":link_causes})
+     {
+          "name": nav_names[1],
+          "nav_names":nav_names,
+          "logo":logo_link,
+          "side_nav_names":causes,
+          "link_side_nav_names":link_causes
+     })
+def Solutions(request):
+     return render(request,"evs/Solution.html",
+     {
+          "name":nav_names[2],
+          "nav_names":nav_names,
+          "logo":logo_link,
+          "side_nav_names":solutions,
+          "link_side_nav_names":link_solutions
+     })
 
 # Create your views here.

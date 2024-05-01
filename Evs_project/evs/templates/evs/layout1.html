@@ -10,8 +10,8 @@
 <body>
     <div id="vertical-nav">
         <ul >
-            {% for i in link_causes %}
-                {% for j in causes%}
+            {% for i in link_side_nav_names %}
+                {% for j in side_nav_names%}
                     {% if j in i%}
                         <li>
                             <a href={{i}}>{{j}}</a>
