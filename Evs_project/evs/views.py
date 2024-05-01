@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-nav_names = ["Home","Causes","Solutions","NGOs","Forms"]
+nav_names = ["Forms","NGOs","Solutions","Causes","Home"]
 logo_link = "https://img.freepik.com/free-vector/sea-animal-cartoon-sticker-with-cute-fish_1308-75896.jpg?w=1380&t=st=1714400607~exp=1714401207~hmac=6f3a5b850685ab51e8bee2ac36ea2fad282bcd1b75d3b034fcb76846433b71a7"
 img_links = ["ABS","123"]
 causes = ["1","2","3","4"]
