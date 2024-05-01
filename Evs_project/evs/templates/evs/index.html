@@ -8,22 +8,64 @@
     <link rel="stylesheet" href="{%static 'evs/style.css'%} ">
 </head>
 <body>
-    <nav>
-        <a href="#" class="active">link1</a> 
-        <a href="#">link2</a> 
-        <a href="#">link3</a> 
-        <a href="#">link4</a> 
-        <a href="#">link5</a>
-        <img src="https://img.freepik.com/free-vector/sea-animal-cartoon-sticker-with-cute-fish_1308-75896.jpg?w=1380&t=st=1714400607~exp=1714401207~hmac=6f3a5b850685ab51e8bee2ac36ea2fad282bcd1b75d3b034fcb76846433b71a7"
-        style="height: 30px;" alt="fish">
-    </nav>
-    <h1 style="margin: 40px; text-align: center;">
-        Aquatic Health
+    <header>
+        <nav>
+            {% for i in nav_names%}
+                {% if i == name%}
+                    <a href="#" class="active">{{i}}</a>
+                {% else %}
+                    <a href="{{i}}">{{i}}</a>
+                {% endif %}
+            {% endfor %}
+            <img src={{logo}} id="logo" alt="fish">
+            
+        </nav>
+    </header>
+    <h1>
+        Aquatic Health 
     </h1>
     <div style="text-align: center;">
     <img src="https://img.freepik.com/free-vector/sea-animal-cartoon-sticker-with-cute-fish_1308-75896.jpg?w=1380&t=st=1714400607~exp=1714401207~hmac=6f3a5b850685ab51e8bee2ac36ea2fad282bcd1b75d3b034fcb76846433b71a7"
         style="height: 300px;" alt="fish">
     </div>
+    <div id="tagline">
+        <h2>
+            TAGLINE
+        </h2>
+    </div>
+    <div class="description">
+        <p>
+            {{img_links.0}}!
+        </p>
+    </div>
+    <div class="multi">
+        <div class="multi-part">
+            <img src="https://img.freepik.com/free-vector/sea-animal-cartoon-sticker-with-cute-fish_1308-75896.jpg?w=1380&t=st=1714400607~exp=1714401207~hmac=6f3a5b850685ab51e8bee2ac36ea2fad282bcd1b75d3b034fcb76846433b71a7">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat officia id in, accusamus earum eius sint fugiat ab cum atque optio facere hic, aspernatur explicabo ducimus nihil at! Quae, maxime. In sequi molestiae doloribus.
+            </p>
+        </div>
+        <div class="multi-part">
+            <img src="https://img.freepik.com/free-vector/sea-animal-cartoon-sticker-with-cute-fish_1308-75896.jpg?w=1380&t=st=1714400607~exp=1714401207~hmac=6f3a5b850685ab51e8bee2ac36ea2fad282bcd1b75d3b034fcb76846433b71a7">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda possimus unde vero repellendus quae? Error quod ratione reprehenderit! Consequatur a accusantium sunt totam. Porro.
+                </p>
+        </div>
+        <div class="multi-part">
+            <img src="https://img.freepik.com/free-vector/sea-animal-cartoon-sticker-with-cute-fish_1308-75896.jpg?w=1380&t=st=1714400607~exp=1714401207~hmac=6f3a5b850685ab51e8bee2ac36ea2fad282bcd1b75d3b034fcb76846433b71a7">
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, consequatur corrupti. Iste, vitae eum. Unde dolores repellat obcaecati, id, culpa consectetur, maxime doloribus dolorem cumque rerum suscipit provident fuga delectus!
+                </p>
+        </div>
+
+    </div>
+
+    <footer >
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione sit officiis et facilis suscipit consequatur accusantium reprehenderit expedita, neque, corrupti nobis rem facere itaque, eius quas explicabo ea numquam aliquam. Nulla eaque suscipit rem, animi omnis perferendis eligendi assumenda at doloribus! Eligendi quam cumque dicta voluptates cupiditate exercitationem ea maiores nam eum itaque laboriosam ullam, quos eaque, pariatur quia harum culpa maxime nulla qui ducimus voluptas dolore quo mollitia? Quam earum repudiandae, ducimus impedit quod, at corporis enim aliquam illo reiciendis expedita consequuntur, tempore a! Molestiae commodi laborum ipsam veritatis consequatur est id dicta quibusdam, possimus quidem doloribus esse eligendi.
+        </p>
+    </footer>
     
 </body>
 </html>
