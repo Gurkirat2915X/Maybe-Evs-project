@@ -125,5 +125,11 @@ footer
 }
 #logo
 {
-    height: 30px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+#title-logo
+{
+    border-radius: 50%;
 }

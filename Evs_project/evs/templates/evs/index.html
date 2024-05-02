@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="{%static 'evs/style.css'%} ">
+    <link   id="title-logo"
+            rel="icon"
+            href={{logo}}
+            type="image/x-icon"
+        />
 </head>
 <body>
     <header>
@@ -17,7 +22,7 @@
                     <a href="{{i}}">{{i}}</a>
                 {% endif %}
             {% endfor %}
-            <img src={{logo}} id="logo" alt="fish">
+            <img src={{logo}} id="logo" alt="Logo">
             
         </nav>
     </header>
