@@ -23,7 +23,7 @@ def index(request):
 def Causes(request):
      return render(request,"evs/Causes.html",
      {
-          "name": nav_names[1],
+          "name": nav_names[3],
           "nav_names":nav_names,
           "logo":logo_link,
           "side_nav_names":causes,
