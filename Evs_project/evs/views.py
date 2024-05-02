@@ -8,14 +8,16 @@ causes = ["1","2","3","4"]
 link_causes = []
 solutions = ["2","3","4"]
 link_solutions = []
-
+ngos=[]
+link_ngos=[]
+for i in ngos:
+     link_ngos.append("#"+str(i))
 for i in solutions:
      link_solutions.append("#"+str(i))
 
 for i in causes:
      link_causes.append("#"+str(i))
  # Create your views here.
-
 def index(request):
      return render(request, "evs/index.html",{"name":
      "Home","nav_names":nav_names,"logo":logo_link,"images":img_links,
@@ -37,6 +39,15 @@ def Solutions(request):
           "logo":logo_link,
           "side_nav_names":solutions,
           "link_side_nav_names":link_solutions
+     })
+def NGOs(request):
+     return render(request,"evs/NGO.html",
+     {
+          "name":nav_names[1],
+          "nav_names":nav_names,
+          "logo":logo_link,
+          "side_nav_names":ngos,
+          "link_side_nav_names":link_ngos
      })
 
 # Create your views here.
