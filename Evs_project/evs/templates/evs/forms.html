@@ -1,0 +1,44 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <title>{{name}}</title>
+    <link rel="stylesheet" href="{%static 'evs/style.css'%} ">
+    <link   id="title-logo"
+            rel="icon"
+            href={{logo}}
+            type="image/x-icon"
+        />
+</head>
+<body>
+    <header>
+        <div id="Heading" style="background-image: url({{heading.2}})">
+            <div>
+                <h1>
+                    {{heading.0}}
+                </h1>
+                <h2>
+                    {{heading.1}}
+                </h2>
+            </div>
+            <nav>
+                {% for i in nav_names%}
+                    {% if i == name%}
+                        <a href={{i}} class="active">{{i}}</a>
+                    {% else %}
+                        <a href="{{i}}">{{i}}</a>
+                    {% endif %}
+                {% endfor %}
+                <img src={{logo}} id="logo" alt="fish">
+            </nav>
+    </header>
+    <div>
+        <form action="">
+            
+        </form>
+    </div>
+</body>
+</html>

@@ -11,6 +11,7 @@ nav
     left: 0;
     width: 100%;
     display: inline;
+    border-bottom: 10px solid green;
     
     
 }
@@ -19,7 +20,7 @@ nav>a
 {   font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 27px;
     float: right;
     padding: 4px;
     padding-left: 10px;
@@ -42,7 +43,7 @@ nav>a:hover
 }
 body
 {
-    background-color:white;
+    background-color:lightcyan;
     padding: 0;
     margin: 0;
 }
@@ -84,8 +85,8 @@ footer
     width: 100%;
     margin: 0%;
     padding: 0%;
-    display: flex;
-    flex-grow: 1;
+    border-top: 4px solid green;
+    text-align: center;
 }
 .multi-part>img
 {
@@ -93,13 +94,14 @@ footer
 }
 #vertical-nav
 {   position: fixed;
-    top: 0;
+    top: 10;
     left: 0;
     margin: 0;
     padding: 0%;
     height:100%;
-    width: 150px ;
+    width: 160px ;
     background-color: darkblue;
+    border-right: 4px solid green;
     
 }
 #vertical-nav>ul
@@ -108,20 +110,37 @@ footer
     margin:0;
     margin-top: 50px;
     padding: 0;
-    width: 150px;
-    background-color: darkblue;
+    width: 160px;
+    
     text-align: center;
     height:100px;
+    
 }
 #vertical-nav>ul>li>a
 {
     color: #000;
     text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+#vertical-nav>ul>li
+{
+    width: 150px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:center;
+    border:4px solid white;
+    text-align: center;
 }
 #content
 {
     margin-top: 50px;
-    margin-left: 160px;
+    margin-left: 170px;
+    text-align: center;
 }
 #logo
 {
@@ -133,3 +152,23 @@ footer
 {
     border-radius: 50%;
 }
+#Heading
+{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f5571f4-d270-4f58-94d8-e039daf7dc9f/d9fhi8w-623cd981-737d-4a13-a020-def9e30ffffe.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJmNTU3MWY0LWQyNzAtNGY1OC05NGQ4LWUwMzlkYWY3ZGM5ZlwvZDlmaGk4dy02MjNjZDk4MS03MzdkLTRhMTMtYTAyMC1kZWY5ZTMwZmZmZmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HLdfHpbzcyFx06cXHrBq0n2rINz36ufo14chsujCpWs");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 60%;
+    height: 400px;
+    margin-top: 20px;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 10px solid green;
+}
+#Heading>div
+{   margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+

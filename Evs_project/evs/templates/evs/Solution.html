@@ -1,6 +1,13 @@
 {% extends "evs/layout1.html"%}
 {% block content%}
-<p id="#1">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi placeat odit numquam eius necessitatibus ipsam officiis repellendus commodi voluptates temporibus! Possimus voluptas modi blanditiis?
-</p>
+    {% for a,b,c in content_list%}
+    <div style="height: 40px;"id="{{a}}"></div>
+        <div>
+            <h3 >
+                {{a}}
+            </h3>
+            <img src="{{b}}" alt="{{a}}" style="width: 400px;"id="{{a}}">
+            <p>{{c}}</p>
+        </div>
+    {% endfor %}
 {% endblock %}

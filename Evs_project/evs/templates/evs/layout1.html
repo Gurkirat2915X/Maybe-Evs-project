@@ -13,20 +13,26 @@
         />
 </head>
 <body>
+    <header>
+    <div id="Heading" style="margin-left: 150px;background-image: url({{heading.2}});">
+        <div>
+            <h1>
+                {{heading.0}}
+            </h1>
+            <h2>
+                {{heading.1}}
+            </h2>
+        </div>
     <div id="vertical-nav">
         <ul >
-            {% for i in link_side_nav_names %}
-                {% for j in side_nav_names%}
-                    {% if j in i%}
-                        <li>
-                            <a href={{i}}>{{j}}</a>
-                        {% endif %}
-                    {% endfor %}
+            {% for j in side_nav_names%}
+                <li>
+                     <a href="#{{j}}">{{j}}</a>
                 </li>
             {% endfor %}
         </ul>
     </div>
-    <header>
+    
         <nav>
             {% for i in nav_names%}
                 {% if i == name%}
