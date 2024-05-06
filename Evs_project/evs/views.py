@@ -10,8 +10,8 @@ img_links = ["ABS","123"]
 
 #For Causes
 causes = ["River Water Pollution","SOURCE OF POLLUTANTS IN RIVER","Point source","Non-point",]
-Cause_img = ["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",""]
-Cause_content =["lol","lol","olo"]
+Cause_img = ["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn","",""]
+Cause_content =["River Water pollution occurs when pollutants are discharged directly or indirectly into rivers without adequate treatment of harmful compounds. River Water pollution affects humans, plants, and organisms living in these rivers. Water pollutants are damaging not only the individual species and populations but also the natural biological communities. Moving water dilutes and decomposes pollutants more rapidly than standing water.The main reasons for river water pollution are due to three main sources of pollution, namely industry, agriculture, and riverside residences. Industries and cities have traditionally been located along rivers because rivers provide transportation and have traditionally been a convenient place for waste disposal. Agricultural activities were mostly concentrated near rivers because river floodplains are exceptionally fertile due to the numerous nutrients deposited in the soil when the river overflows.","lol","olo"]
 Cause_heading=["Cause","sub-heading","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
 
 #For Solutions
