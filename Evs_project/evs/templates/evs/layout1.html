@@ -14,14 +14,13 @@
 </head>
 <body>
     <header>
-    <div id="Heading" style="margin-left: 150px;background-image: url({{heading.2}});">
-        <div>
-            <h1>
+    <div id="Heading" style="margin-left: 150px;background-image: url({{heading.1}});">
+        <div style="margin: auto;display: flex ;
+            flex-wrap: wrap;
+            justify-content: center;">
+            <h1 style="padding-top: 120px;">
                 {{heading.0}}
             </h1>
-            <h2>
-                {{heading.1}}
-            </h2>
         </div>
     <div id="vertical-nav">
         <ul >
@@ -41,12 +40,15 @@
                     <a href="{{i}}">{{i}}</a>
                 {% endif %}
             {% endfor %}
-            <img src={{logo}} id="logo" alt="fish">
+            <img src={{logo}} id="logo" alt="fish"></a>
         </nav>
     </header>
     <div id="content">
         {% block content %}
         {% endblock %}
+    </div>
+    <div style="height: 50px;">
+
     </div>
     
     

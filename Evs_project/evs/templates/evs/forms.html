@@ -15,15 +15,14 @@
 </head>
 <body>
     <header>
-        <div id="Heading" style="background-image: url({{heading.2}})">
-            <div>
-                <h1>
-                    {{heading.0}}
-                </h1>
-                <h2>
-                    {{heading.1}}
-                </h2>
-            </div>
+        <div id="Heading" style="background-image: url({{heading.1}})">
+            <div style="margin: auto;display: flex ;
+            flex-wrap: wrap;
+            justify-content: center;">
+            <h1 style="padding-top: 120px;">
+                {{heading.0}}
+            </h1>
+        </div>
             <nav>
                 {% for i in nav_names%}
                     {% if i == name%}
@@ -35,7 +34,10 @@
                 <img src={{logo}} id="logo" alt="fish">
             </nav>
     </header>
-    <div>
+    <div style="height: 50px;">
+
+    </div>
+    <div class="cause_div">
         <form action="">
             <label for="name">Enter Name: </label><br>
                 <input type="text" id="name" name="name" required><br>
@@ -55,6 +57,9 @@
                 <input type="reset" value="Reset">
               
         </form>
+    </div>
+    <div style="height: 50px;">
+
     </div>
 </body>
 </html>
