@@ -4,7 +4,7 @@ from django.http import HttpResponse
 #For homepage
 nav_names = ["Forms","NGOs","Solutions","Causes","Home"]
 logo_link ="https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn"
-img_links = ["ABS","123"]
+img_links = ["https://i.natgeofe.com/n/2e9d6cb1-be06-4b0d-a0a2-2ecd098360db/44179.jpg?w=1200","https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2018/09/19/Pictures/bjp-yuva-yamuna-cleaning_bd5567a2-bc2d-11e8-95ec-91800d079bb4.jpg"]
 
 
 
@@ -29,16 +29,18 @@ Cause_heading=["Cause","https://www.environmentbuddy.com/wp-content/uploads/2020
 
 #For Solutions
 solutions = ["2","3","4"]
-Solution_img = ["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn"]
-Solution_content=["Hello"]
+Solution_img = ["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn","2"]
+Solution_content=["Hello","2"]
 Solution_heading=["Solution","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
 
 #For NGOS
 ngos=["1","2"]
 ngo_heading=["NGO","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
-ngo_content=["NGO1"]
-ngo_img=["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn"]
-
+ngo_content=["NGO1",""]
+ngo_img=["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",""]
+ngo_website = [ "website",""]
+ngo_mail = ["Mail",""]
+ngo_contact = ["number",""]
 # For forms
 forms_heading=["Forms","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
  # Create your views here.
@@ -75,7 +77,7 @@ def NGOs(request):
           "logo":logo_link,
           "side_nav_names":ngos,
           "heading":ngo_heading,
-          "content_list":zip(ngos,ngo_img,ngo_content)
+          "content_list":zip(ngos,ngo_content,ngo_website,ngo_mail,ngo_contact,ngo_img)
      })
 def Forms(request):
      return render(request,"evs/forms.html",

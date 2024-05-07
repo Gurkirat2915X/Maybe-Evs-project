@@ -1,14 +1,23 @@
 {% extends "evs/layout1.html"%}
 {% block content%}
-<div style="height: 40px;"id="{{a}}"></div>
-{% for a,b,c in content_list%}
-        <div class="cause_div">
+
+
+{% for a,b,c,d,e,f in content_list%}
+        <div style="height: 60px;"id="{{a}}"></div>
+        <div class="cause_div" style="margin: auto;display: flex ;flex-wrap: wrap; justify-content: left">
+            <div style="width: 600px;">
             <h3 >
                 {{a}}
             </h3>
-            <img src="{{b}}" alt="{{a}}" style="width: 400px;"id="{{a}}">
-            <p>{{c}}</p>
+            <p>{{b}}</p>
+            <p>Website: {{c}}</p>
+            <p>Email: {{d}}</p>
+            <p>Contact info: {{e}}</p>
+            </div>
+            <img src="{{f}}" alt="{{a}}" style="width: 400px;"id="{{a}}">
+            
         </div>
+
     {% endfor %}
 {% endblock %}
 

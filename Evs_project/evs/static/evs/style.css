@@ -65,8 +65,9 @@ nav>img
 }
 .description
 {
-    font-family:Helvetica, sans-serif;
+    font-family:chancery;
     text-align: center;
+    font-size: 22px;
 }
 .multi
 {
@@ -77,19 +78,32 @@ nav>img
 }
 .multi-part
 {
-    margin: 10px;
     width: 400px;
     text-align: center;
+    margin: 30px;
+}
+.multi-part-img
+{
+    border: 5px solid #262d51;
+    border-radius: 10px; 
+    height: 200px;
+    width: 250px;
+}
+
+.test:hover
+{
+    border-color: #AACCFF;
 }
 footer
 {
     background-color: #303866;
     width: 100%;
     margin: 0%;
-    padding: 0%;
+    padding: 10px;
     border-top: 10px solid #262d51;
     text-align: center;
     margin-top: 20px;
+    color: white;
 }
 .multi-part>img
 {
@@ -100,7 +114,7 @@ footer
     top: 0;
     left: 0;
     margin: 0;
-    padding: 0%;
+   
     height:100%;
     width: 160px ;
     background-color: #303866;
