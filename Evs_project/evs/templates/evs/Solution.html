@@ -6,8 +6,16 @@
             <h3 >
                 {{a}}
             </h3>
+            {% if b == blank %}
+            <p>{{c}}</p>
+            
+            {% else %}
+            <div class="cause_div_a">
             <img src="{{b}}" alt="{{a}}" style="width: 400px;"id="{{a}}">
             <p>{{c}}</p>
+            </div>
+            {% endif %}
+            
         </div>
     {% endfor %}
 {% endblock %}

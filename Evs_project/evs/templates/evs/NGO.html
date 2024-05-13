@@ -2,7 +2,7 @@
 {% block content%}
 
 
-{% for a,b,c,d,e,f in content_list%}
+{% for a,b,c,d,e in content_list%}
         <div style="height: 60px;"id="{{a}}"></div>
         <div class="cause_div" style="margin: auto;display: flex ;flex-wrap: wrap; justify-content: left">
             <div style="width: 600px;">
@@ -10,11 +10,11 @@
                 {{a}}
             </h3>
             <p>{{b}}</p>
-            <p>Website: {{c}}</p>
+            <p>Website: <a href="{{c}}" target="_blank">Click Here</a></p>
             <p>Email: {{d}}</p>
-            <p>Contact info: {{e}}</p>
+            
             </div>
-            <img src="{{f}}" alt="{{a}}" style="width: 400px;"id="{{a}}">
+            <img src="{{e}}" alt="{{a}}" style="width: 400px;"id="{{a}}">
             
         </div>
 

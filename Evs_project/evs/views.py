@@ -1,11 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+blank = ""
+
 #For homepage
 nav_names = ["Forms","NGOs","Solutions","Causes","Home"]
 logo_link ="https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn"
 img_links = ["https://i.natgeofe.com/n/2e9d6cb1-be06-4b0d-a0a2-2ecd098360db/44179.jpg?w=1200","https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2018/09/19/Pictures/bjp-yuva-yamuna-cleaning_bd5567a2-bc2d-11e8-95ec-91800d079bb4.jpg"]
-
 
 
 #For Causes
@@ -58,7 +59,7 @@ Cause_heading=["Cause","https://www.environmentbuddy.com/wp-content/uploads/2020
 
 #For Solutions
 solutions = ["2","3","4"]
-Solution_img = ["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn","2"]
+Solution_img = ["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",""]
 Solution_content=["Hello","2"]
 Solution_heading=["Solution","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
 
@@ -103,7 +104,7 @@ ngo_mail = ["info@wwfindia.net",
             "Email Id: arun@indiaenvironment.org"
             ]
 
-ngo_contact = ["number",""]
+ngo_contact = ["number","100",'11','11']
 
 
 # For forms
@@ -122,6 +123,7 @@ def Causes(request):
           "side_nav_names":causes,
           "heading":Cause_heading,
           "content_list":zip(causes,Cause_img,Cause_content)
+          ,"blank":blank
      })
 def Solutions(request):
      return render(request,"evs/Solution.html",
@@ -131,7 +133,8 @@ def Solutions(request):
           "logo":logo_link,
           "side_nav_names":solutions,
           "heading":Solution_heading,
-          "content_list":zip(solutions,Solution_img,Solution_content)
+          "content_list":zip(solutions,Solution_img,Solution_content),
+          "blank":blank
 
      })
 def NGOs(request):
@@ -142,7 +145,7 @@ def NGOs(request):
           "logo":logo_link,
           "side_nav_names":ngos,
           "heading":ngo_heading,
-          "content_list":zip(ngos,ngo_content,ngo_website,ngo_mail,ngo_contact,ngo_img)
+          "content_list":zip(ngos,ngo_content,ngo_website,ngo_mail,ngo_img)
      })
 def Forms(request):
      return render(request,"evs/forms.html",
