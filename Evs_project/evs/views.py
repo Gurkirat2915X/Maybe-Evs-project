@@ -9,7 +9,17 @@ img_links = ["https://i.natgeofe.com/n/2e9d6cb1-be06-4b0d-a0a2-2ecd098360db/4417
 
 
 #For Causes
-causes = ["River Water Pollution","SOURCE OF POLLUTANTS IN RIVER","Disposal of Untreated Sewage","Littering","Human Activities","Oil Seepage and Agricultural Pollutants","Industries","Urbanization","Domestic waste","IMPACT OF RIVER POLLUTION","CONCLUSION"]
+causes = ["River Water Pollution",
+          "SOURCE OF POLLUTANTS IN RIVER",
+          "Disposal of Untreated Sewage",
+          "Littering",
+          "Human Activities",
+          "Oil Seepage and Agricultural Pollutants",
+          "Industries",
+          "Urbanization",
+          "Domestic waste",
+          "IMPACT OF RIVER POLLUTION",
+          "CONCLUSION"]
 
 Cause_img = ["",
              "https://upload.wikimedia.org/wikipedia/commons/b/b7/Common_Point_Source_Discharges_-_EPA_2010.png ",
@@ -53,13 +63,49 @@ Solution_content=["Hello","2"]
 Solution_heading=["Solution","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
 
 #For NGOS
-ngos=["1","2"]
-ngo_heading=["NGO","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
-ngo_content=["NGO1",""]
-ngo_img=["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",""]
-ngo_website = [ "website",""]
-ngo_mail = ["Mail",""]
+ngo_heading=["NGO(Non Governmental Organisations)","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
+ngos=["WWF INDIA",
+      "Centre for Environment Education (CEE): "
+      "Kalpavriksh",
+      "Conservation Action Trust (CAT)",
+      "6.	Reef Watch Marine Conservation",
+      "7.	Environmentalist Foundation of India (EFI):"]
+ngo_content=["They work on a range of conservation projects, including river ecosystems and marine biodiversity within rivers.",
+             "CEE focuses on environmental education and conservation, including river ecosystems and marine life conservation in rivers.",
+             "This organization is engaged in biodiversity conservation, including projects related to river ecosystems and marine species conservation.",
+             "CAT is involved in advocacy and campaigns for river conservation, including efforts to protect marine life in rivers.",
+             ": ReefWatch Marine Conservation is a not-for-profit organization established in 1993 as a public charitable trust under the Societies Registration Act. They aim to adapt internationally established ecosystem restoration techniques to the Indian context by piloting them on the coast and providing consultancy to other agencies",
+             "EFI takes a holistic approach that includes wildlife conservation, habitat restoration, and water conservation.Although not exclusively marine-focused, their efforts contribute to overall ecosystem health, including coastal areas.These organizations play a crucial role in safeguarding our marine biodiversity and ensuring a sustainable future for our oceans."]
+ngo_img=["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
+         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
+         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
+         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
+         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
+         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
+         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
+         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
+         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
+         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn"]
+
+ngo_website = [ "https://www.wwfindia.org/",
+               "https://www.ceeindia.org/",
+               ": https://kalpavriksh.org/",
+               "Site Link: https://cat.org.in/",
+               "Site Link: https://reefwatchindia.org/ ",
+               "https://indiaenvironment.org/"
+               ]
+
+ngo_mail = ["info@wwfindia.net",
+            "cee@ceeindia.org",
+            "kalpavriksh@vsnl.com",
+            "catindia@cat.org.in",
+            " Email Id: admin@reefwatchindia.org",
+            "Email Id: arun@indiaenvironment.org"
+            ]
+
 ngo_contact = ["number",""]
+
+
 # For forms
 forms_heading=["Forms","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
  # Create your views here.
