@@ -16,9 +16,7 @@ causes = ["River Water Pollution",
           "Littering",
           "Human Activities",
           "Oil Seepage and Agricultural Pollutants",
-          "Industries",
-          "Urbanization",
-          "Domestic waste",
+          "Industries and Urbanisation",
           "IMPACT OF RIVER POLLUTION",
           "CONCLUSION"]
 
@@ -29,7 +27,6 @@ Cause_img = ["",
              "",
              "https://www.afrik21.africa/wp-content/uploads/2020/12/121310734_4766225006750913_1132573198674699453_n-1-800x400.jpg",
              "https://media.licdn.com/dms/image/D4D12AQEcup9g0ic3yg/article-cover_image-shrink_600_2000/0/1678966421490?e=2147483647&v=beta&t=kjZLK4Z3s1LWObGifi4bieTyVNu976bGyn04MhD018E",
-             "",
              "https://media.assettype.com/themooknayak-en%2F2024-03%2F53fa0264-c729-4358-aa56-ee6207e85809%2FYamuna.jpg?w=1200&auto=format%2Ccompress&fit=max",
              "",""]
 
@@ -45,11 +42,7 @@ Cause_content =["River Water pollution occurs when pollutants are discharged dir
 
 "Spillage of oil through vessels and leakage through pipelines is one of the components responsible for river water pollution. Excess fertilizers are washed into the nearby water body and join the river course. It has been estimated  that in 1984, 5 million tones of fertilizers, 55 000 tonnes of pesticides, and 125000 tonnes of synthetic detergents were used in India. Roughly about 25% of all these can be expected to ultimately end up in the rivers every year.",
 
-"The unimpeded flow of sewage and industrial effluents into rivers has compromised their purity. All of this industrial waste is toxic to the life forms that consume this water.",
-
-"Rapid urbanization in India during the recent decades has given rise to numerous environmental problems such as water supply, wastewater generation, and its collection, treatment, and disposal. Many towns and cities which came upon the banks of rivers have not given proper thought to the problem of wastewater, sewerage, etc. ",
-
-"Swashing of fertilizer bags & pesticide, soap, detergent, washing cattle, cow dung, container.",
+"The unimpeded flow of sewage and industrial effluents into rivers has compromised their purity. All of this industrial waste is toxic to the life forms that consume this water. Rapid urbanization in India during the recent decades has given rise to numerous environmental problems such as water supply, wastewater generation, and its collection, treatment, and disposal. Many towns and cities which came upon the banks of rivers have not given proper thought to the problem of wastewater, sewerage, etc.",
 
 "Marine life is affected by water pollution which increases day by day, disrupting the ecosystem of the river. This pollution affects aquatic life as dams are now being built on various rivers which act as water reservoirs which is dangerous as all animals have a hard time keeping up. Not only aquatic life but also people are affected as people end up drinking that polluted water, using it for daily chores, and making themselves vulnerable to various diseases, for example, water-borne diseases such as typhus, jaundice, cholera, etc, even threatening . People are also exposed to chemically treated water for their daily activities such as cleaning, washing, etc., increasing the chances of spreading infectious diseases. A fragile ecosystem can be ruined by such pollution. If the water continues to be polluted, the ecosystem may collapse and some species are already extinct or on the verge of extinction and need to be taken care of. Chemicals released into water bodies settle to the bottom, forming a thick layer on the river bed. The bacteria present in the water feed on it, leading to a decrease in oxygen which harms the aquatic life present in the rivers. It also has a detrimental effect on the food chain of the animals present in the ecosystem. When the aquatic life tends to ingest the polluted water, the marine life may have toxins and pollutants in its body. When humans tend to feed on fish, shellfish, or other forms of aquatic life, they also end up consuming toxins and pollutants.",
 
@@ -58,57 +51,98 @@ Cause_content =["River Water pollution occurs when pollutants are discharged dir
 Cause_heading=["Cause","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
 
 #For Solutions
-solutions = ["2","3","4"]
-Solution_img = ["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",""]
-Solution_content=["Hello","2"]
-Solution_heading=["Solution","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
+solutions = ["Pollution Reduction",
+             "Sustainable Fishing",
+             "Plastic Reduction",
+             "Marine Restoration and Rehabilitation",
+             "CONCLUSION",]
+Solution_img = ["https://www.implasticfree.com/wp-content/uploads/2022/10/River-Cleaning.jpg",
+                "https://cdn.shopify.com/s/files/1/1014/8315/products/Sustainable_Fishery_2e0719ba-ccc5-451e-aef0-7cdc11f5dd8f.jpg?v=1543523024",
+                "https://th.bing.com/th/id/OIP.EOHrpJrnKTjIW9a4DeqFHgHaEK?rs=1&pid=ImgDetMain",
+                "https://th.bing.com/th/id/OIP.Fkna7cykNbhdW_e1XlXO3AHaFj?rs=1&pid=ImgDetMain",
+                "",
+                ]
+Solution_content=[ "Human activities are a major source of pollution harming our water resources. Industrial facilities, agriculture, and sewage treatment plants all contribute. We can help by being mindful of what we dispose of and supporting businesses with sustainable practices. This includes reducing use of harsh chemicals at home, properly disposing of hazardous waste, and advocating for stricter regulations on industrial waste management.",
+                  "Overfishing is a serious threat to fish populations. By choosing seafood with certifications like the Marine Stewardship Council (MSC), we support fisheries that prioritize long-term sustainability.  This ensures fish are caught responsibly and populations can replenish, protecting the delicate balance of marine ecosystems.",
+                  "Plastic pollution is a growing problem in our oceans, harming marine life and ecosystems. We can all play a part in reducing plastic use. Carrying reusable water bottles and shopping bags are simple yet impactful actions. Additionally, choosing products with minimal plastic packaging or opting for package-free alternatives whenever possible helps minimize plastic waste entering our waterways.",
+                  "Degraded marine habitats like coral reefs, mangroves, and seagrass meadows play a vital role in ocean health. Restoration and rehabilitation efforts focus on bringing these ecosystems back to life. This can involve planting new corals, restoring lost mangroves, and promoting seagrass growth. Healthy habitats provide critical breeding grounds, shelter for marine life, and contribute to overall ocean health.",
+                  "Revitalizing our rivers requires a multi-pronged approach. By tackling pollution from industries, farms, and households, we can restore healthy water quality. Community clean-ups, stricter regulations, and individual actions like reducing chemical use all contribute to a cleaner future for our rivers and the ecosystems they sustain. "
+                  ]
+
+
+Solution_heading=["Solution","https://th-i.thgim.com/public/incoming/8bla2f/article65250399.ece/alternates/LANDSCAPE_1200/PTI03_17_2022_000041B.jpg"]
 
 #For NGOS
-ngo_heading=["NGO(Non Governmental Organisations)","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
+ngo_heading=["NGO(Non-Governmental Organisation)","https://culvercitycrossroads.com/wp-content/uploads/2019/04/folar-la-river-cleanup-featured.jpg"]
+
 ngos=["WWF INDIA",
-      "Centre for Environment Education (CEE): "
+      "Centre for Environment Education (CEE)",
       "Kalpavriksh",
       "Conservation Action Trust (CAT)",
-      "6.	Reef Watch Marine Conservation",
-      "7.	Environmentalist Foundation of India (EFI):"]
+      "Reef Watch Marine Conservation",
+      "Environmentalist Foundation of India (EFI)",
+      "Nature Conservation Foundation(NCF)",
+      "Dakshin Foundation",
+      "Ashoka Trust for Research in Ecology and the Environment (ATREE)",
+      "International Collective in Support of Fisherworkers (ICSF)",
+      "Terra Conscious"
+      ]
 ngo_content=["They work on a range of conservation projects, including river ecosystems and marine biodiversity within rivers.",
              "CEE focuses on environmental education and conservation, including river ecosystems and marine life conservation in rivers.",
              "This organization is engaged in biodiversity conservation, including projects related to river ecosystems and marine species conservation.",
              "CAT is involved in advocacy and campaigns for river conservation, including efforts to protect marine life in rivers.",
              ": ReefWatch Marine Conservation is a not-for-profit organization established in 1993 as a public charitable trust under the Societies Registration Act. They aim to adapt internationally established ecosystem restoration techniques to the Indian context by piloting them on the coast and providing consultancy to other agencies",
-             "EFI takes a holistic approach that includes wildlife conservation, habitat restoration, and water conservation.Although not exclusively marine-focused, their efforts contribute to overall ecosystem health, including coastal areas.These organizations play a crucial role in safeguarding our marine biodiversity and ensuring a sustainable future for our oceans."]
-ngo_img=["https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
-         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
-         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
-         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
-         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
-         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
-         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
-         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
-         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn",
-         "https://tse4.mm.bing.net/th/id/OIG3.mlONeZu1lGfbij1d4cFH?pid=ImgGn"]
+             "EFI takes a holistic approach that includes wildlife conservation, habitat restoration, and water conservation.Although not exclusively marine-focused, their efforts contribute to overall ecosystem health, including coastal areas.These organizations play a crucial role in safeguarding our marine biodiversity and ensuring a sustainable future for our oceans.",
+             "NCF, based in Mysore, is committed to conserving India's biodiversity. They work on marine conservation, including research, habitat protection, and community engagement.",
+             "Dakshin Foundation, also based in Bengaluru, works on marine and coastal conservation. They collaborate with local communities, researchers, and policymakers to protect marine biodiversity",
+             "ATREE, headquartered in Bengaluru, focuses on ecological research and conservation. Their marine initiatives contribute to understanding coastal ecosystems and promoting",
+             "ICSF, headquartered in Chennai, advocates for the rights of small-scale fisherfolk and promotes sustainable fisheries management. Their work contributes to marine conservation and livelihoods.",
+             "Founded in 2017 by Puja Mitra, Terra Conscious aims to promote responsible tourism and conservation. Puja, previously a senior program coordinator for World Wildlife Fund (WWF) India, brings her expertise to this organisation."
+             
+             ]
+ngo_img=["https://th.bing.com/th/id/OIP.lmCZX90fQRK580ZEiSPdwwAAAA?rs=1&pid=ImgDetMain",
+         "https://www.ceeindia.org/admin/action/uploads/140621104402act.jpg",
+         "https://kalpavriksh.org/wp-content/uploads/2020/11/KV-logo-web-horizontal@0.25x.png",
+         "https://cat.org.in/wp-content/uploads/2019/11/Conservation-Action-Trust-Logo.png",
+         "https://i0.wp.com/reefwatchindia.org/wp-content/uploads/2021/05/Copy-of-ReefwatchFINALPDF.logo-01-4.png?fit=9094%2C3189&ssl=1",
+         "https://indiaenvironment.org/wp-content/uploads/2019/01/efi-logo-transparent-retina.png",
+         "https://thumbor-stg.assettype.com/ncfindia/2019-08/130ad8ea-2146-4280-8960-920a0ed77abe/NCF_Logo_with_White_BG_final.jpg?w=190&auto=format,compress",
+         "https://www.dakshin.org/wp-content/uploads/2021/07/cropped-Dakshin-Logo_new-colour-final-01-e1627622688625.png",
+         "https://www.atree.org/wp-content/uploads/2023/05/ATREE-logo-06.svg",
+         "https://www.icsf.net/wp-content/themes/ICSF/assets/images/flogo.png",
+         "https://static.wixstatic.com/media/699b9c_4411508b8e4347b5abd036e1bcb66ea4~mv2.png/v1/crop/x_0,y_18,w_400,h_357/fill/w_134,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ugh.png"]
 
-ngo_website = [ "https://www.wwfindia.org/",
+ngo_website = ["https://www.wwfindia.org/",
                "https://www.ceeindia.org/",
-               ": https://kalpavriksh.org/",
-               "Site Link: https://cat.org.in/",
-               "Site Link: https://reefwatchindia.org/ ",
-               "https://indiaenvironment.org/"
+               "https://kalpavriksh.org/",
+               "https://cat.org.in/",
+               "https://reefwatchindia.org/ ",
+               "https://indiaenvironment.org/",
+               "https://www.ncf-india.org/",
+               "https://www.dakshin.org/",
+               "https://www.atree.org/",
+               "https://www.icsf.net/",
+               "https://www.terraconscious.com/"
                ]
 
 ngo_mail = ["info@wwfindia.net",
             "cee@ceeindia.org",
             "kalpavriksh@vsnl.com",
             "catindia@cat.org.in",
-            " Email Id: admin@reefwatchindia.org",
-            "Email Id: arun@indiaenvironment.org"
+            "admin@reefwatchindia.org",
+            "arun@indiaenvironment.org",
+            "smita @ ncf-india.org",
+            "info@dakshin.org",
+            "infodelhi.atree@org",
+            "icsf@icsf.net",
+            "terraconscious.contact@gmail.com"
             ]
 
-ngo_contact = ["number","100",'11','11']
+
 
 
 # For forms
-forms_heading=["Forms","https://www.environmentbuddy.com/wp-content/uploads/2020/03/Polluted-river-with-garbage.jpeg"]
+forms_heading=["Forms","https://images.wallpaperscraft.com/image/single/stones_sea_water_373109_3840x2160.jpg"]
  # Create your views here.
 def index(request):
      return render(request, "evs/index.html",{"name":

@@ -195,7 +195,6 @@ footer
     height: 400px;
     margin-top: 20px;
     color:white;
-    
     border-bottom: 10px solid #262d51;
 }
 #Heading>div
@@ -214,6 +213,24 @@ footer
    
     
 }
+
+.solution_div
+{
+    
+    width: 80%;
+    
+    border-radius: 25px;
+    margin: auto;
+    padding: 5px;
+}
+
+.solution_div>p
+    {
+        margin: 5px;
+        color: #110f0e;
+        width: 920px;
+    }
+
 .cause_div>img
 {
     border-radius: 15px;
@@ -229,9 +246,14 @@ footer
 .cause_div>p
 {
     margin: 5px;
-    color: #8B4513;
+    color: #110f0e;
     width: 920px;
 }
+
+
+
+
+
 
 /* Here is the styling for linking all soical media handles*/
 
